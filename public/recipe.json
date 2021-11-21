@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Balsamic Veggie Pasta",
+    "description": "This easy Balsamic Veggie Pasta recipe is loaded up with tons of fresh veggies and garlic, and tossed with a delicious simple balsamic vinaigrette.",
+    "image": "/img/1.jpg",
+    "ingredients": [
+      "12 ounces uncooked pasta (I used penne)",
+      "3 tablespoons olive oil, divided",
+      "1 small red onion, peeled and thinly-sliced",
+      "1 pound asparagus, cut into bite-sized pieces (with ends trimmed off and discarded)",
+      "1 small head of broccoli florets, cut into bite-sized pieces",
+      "1 red bell pepper, cored and thinly-sliced",
+      "Kosher salt and freshly-cracked black pepper",
+      "5 cloves garlic, peeled and minced",
+      "3–4 tablespoons balsamic vinegar",
+      "freshly-grated Parmesan cheese"],
+    "steps": [
+      "Cook pasta in a large stock pot of generously-salted boiling water al dente according to package instructions. Then drain the pasta, and set it aside.",
+      "Meanwhile, as the pasta water is heating and the pasta is cooking, heat 2 tablespoons oil in a large saute pan over medium-high heat.  Add the red onion and sauté, stirring occasionally, for 4 minutes.  Add the asparagus, broccoli, and red bell pepper, and season the mixture with a generous pinch of salt and pepper.  Continue sautéing for 4-5 more minutes, stirring occasionally.  (Adding in another tablespoon of oil if needed.)  Stir in the garlic and continue sautéing for 1-2 more minutes, stirring occasionally, until the garlic is fragrant.  Remove from heat.",
+      "Once the veggies and pasta have all finished cooking, return the stockpot to the stove over medium-high heat.  Add the remaining 1 tablespoon of oil, cooked pasta, veggie mixture, balsamic vinegar, lots of freshly-cracked black pepper, and toss to combine.  Sauté for 1-2 minutes, stirring occasionally, so that the pasta is very lightly toasted.  Taste, and add extra balsamic vinegar and black pepper if needed.",
+      "Remove from heat and sere warm, garnished with lots of Parmesan cheese."
+    ],
+    "tags": ["vegetarian", "easy", "pasta", "dinner"]
+  },
+  {
+    "id": 2,
+    "name": "Healthy Instant Pot Pulled Pork",
+    "description": "Healthy Crockpot Pulled Pork is a perfect easy, filling weeknight dinner. It’s low in fat, packed with protein, and paleo / Whole30 approved!",
+    "image": "/img/2.jpg",
+    "ingredients": [
+      "2.5 lbs pork tenderloin (approximately 2 medium pork tenderloins)",
+      "1/4 cup extra virgin olive oil",
+      "1 tablespoon paprika",
+      "1 tablespoon garlic powder",
+      "1 teaspoon pepper",
+      "1/2 teaspoon onion powder",
+      "1/2 teaspoon cinnamon",
+      "1/4 teaspoon ginger",
+      "1 cups chicken stock",
+      "1/2 cup Barbecue Sauce of Choice (We like Tessemae’s)"
+    ],
+    "steps": [
+      "Clean off 'silver skin' from pork tenderloin. (This is optional, but recommended to keep it lean). Cut pork tenderloin into 5-6 inch sections. You can leave the tenderloins whole, but it will take longer to come to pressure.",
+      "In a bowl, whisk together olive oil + spices. Marinate pork in olive oil + spices overnight if possible in a ziploc bag, otherwise place tenderloins in instant pot and cover with oil/spice marinade. Make sure all areas of the pork have some marinade on them.",
+      "Pour chicken stock on top of marinated tenderloins. **Important Note** Add an extra cup of chicken stock or water. The instant pot requires more liquid.",
+      "Set instant pot to Sealing, Pressure Cook for 18 minutes. When instant pot is done, allow the pressure to naturally release for at least 15 minutes, then quick release.",
+      "When finished cooking, use tongs or a fork to pull the tenderloins apart (it will fall apart!). Allow the juices to soak into the pulled pork.",
+      "Toss with your favorite barbecue sauce + enjoy!"
+    ],
+    "tags": ["low calorie", "instant pot", "pork", "dinner"]
+  },
+  {
+    "id": 3,
+    "name": "Healthy Air Fryer Chicken and Broccoli Stir Fry",
+    "description": "Easy, healthy asian chicken stir fry made in the instant pot",
+    "image": "/img/3.jpg",
+    "ingredients": [
+      "1 pound  (454 g) boneless skinless chicken breast or thighs, cut into 1-inch bites sized pieces",
+      "1/4-1/2 pound (113-226 g) broccoli, cut into florets (1-2 cups)",
+      "1/2 medium onion, sliced thick",
+      "3 Tablespoons (45 ml) olive oil or grape seed oil",
+      "1/2 teaspoon (2.5 ml) garlic powder",
+      "1 Tablespoon (15 ml) fresh minced ginger",
+      "1 Tablespoon (15 ml) low sodium soy sauce , or to taste (use Tamari for Gluten Free)",
+      "1 Tablespoon (15 ml) rice vinegar (use distilled white vinegar for Gluten Free)",
+      "1 teaspoon (5 ml) sesame oil",
+      "2 teaspoons (10 ml) hot sauce (optional)",
+      "1/2 teaspoon sea salt, or to taste",
+      "(Optional) 1/2 oz red wine",
+      "black pepper, to taste",
+      "serve with lemon wedges, optional"
+    ],
+    "steps": [
+      "In a large bowl, combine chicken, broccoli and onion. Toss ingredients together.",
+      "Make the Marinade: In a bowl, combine oil, garlic powder, ginger, soy sauce, rice vinegar, sesame oil, optional hot sauce, salt, and pepper. Add the chicken, broccoli and onions to the marinade. Stir thoroughly to combine the marinade with chicken, broccoli and onions.",
+      "Air Fry: Add ingredients to air fryer basket/tray. Air Fry 380°F/195°C for 16-20 minutes, shaking and gently tossing halfway through cooking. Make sure to toss so that everything cooks evenly. Check chicken to make sure it’s cooked through. If not, cook for additional 3-5 minutes.",
+      "Add additional salt and pepper, to taste. Squeeze fresh lemon juice on top and serve warm."
+    ],
+    "tags": ["air fryer", "low calorie", "chicken", "asian", "dinner"]
+  },
+  {
+    "id": 4,
+    "name": "Kelly's Famous Margaritas",
+    "description": "Delicious STRONG margs with additions by Kelly",
+    "image": "/img/4.jpg",
+    "ingredients": [
+      "3 oz tequilla",
+      "2 oz Cointreau (or Triple Sec)",
+      "1 1/2 oz fresh lime juice",
+      "3/4 oz agave",
+      "1/2 oz fresh lemon juice",
+      "1/2 o orange juice",
+      "Sliced lime for serving",
+      "Ice"
+    ],
+    "steps": [
+      "Add ingredients to shaker and shake well.",
+      "Pour over ice in salted rim glasses."
+    ],
+    "tags": ["alcohol"]
+  },
+  {
+    "id": 5,
+    "name": "Low Calorie Chick-Fil-A Sauce",
+    "description": "Delicous easy to make low calorie Chick-Fil-A copycat sauce.",
+    "image": "/img/5.jpg",
+    "ingredients": [
+      "1/2 c low fat or sugar free BBQ Sauce",
+      "1/2 c lite mayo or avocado oil mayo",
+      "1/4 c nonfat Greek yogurt",
+      "1/4 c yellow mustard",
+      "1 tbsp dijon mustard",
+      "1 tbsp honey",
+      "1/4 tsp kosher salt"
+    ],
+    "steps": [
+      "In a large bowl, whisk all the ingredients together.",
+      "Enjoy."
+    ],
+    "tags": ["sauce", "low calorie"]
+  }
+]
