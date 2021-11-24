@@ -1,10 +1,13 @@
-import {useState} from "react";
-import recipes from "../public/recipe.json"
+import React from "react";
+import { useState } from "react";
+import { Recipe } from "../../renderer/types";
 import RecipeCard from "./RecipeCard";
+import "../recipe/recipe.css";
 
-export default function RecipeList() {
+export { Page };
+
+function Page({recipes}: {recipes: Recipe[]}) {
   const [searchValue, setSearchValue] = useState("");
-
   const recipeCards = recipes
     .filter((recipe) => {
       const lowerSearchValue = searchValue.toLowerCase();
@@ -36,5 +39,4 @@ export default function RecipeList() {
       </div>
     </>
   )
-
 }

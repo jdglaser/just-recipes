@@ -1,72 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-h3 {
-  margin: 0;
-  font-size: 0.95rem;
-}
-
-ul {
-  list-style-type: circle;
-}
-li {
-  margin-top: 5px;
-}
-
-.content {
-  text-align: center;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.header {
-  width: fit-content;
-  text-align: center;
-  margin: auto auto;
-}
-
-.title {
-  border-bottom: 1px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 0;
-}
-
-.subtitle {
-  margin-top: 10px;
-}
 
 .recipes {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-}
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  
 .recipe-card {
-  border: 2px solid grey;
   border-radius: 5px;
+  padding: 5px;
   margin: 10px 10px;
-  width: 225px;
-  height: 250px;
+  width: 250px;
+  height: 300px;
   text-align: center;
   display: grid;
   grid-template-rows: 50px auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .card-header {
@@ -79,9 +27,10 @@ li {
 }
 
 .recipe-image-holder {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -92,12 +41,12 @@ li {
 .recipe-image {
   width: auto;
   height: auto;
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 250px;
+  max-height: 225px;
 }
 
 .tags {
-  margin: 5px 0px
+  margin: 10px 5px
 }
 
 input[type="text"] {
@@ -128,9 +77,10 @@ input:focus {
 }
 
 .recipe-detail-image-holder {
-  border-radius: 75%;
-  width: 175px;
-  height: 175px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -141,8 +91,8 @@ input:focus {
 .recipe-detail-image {
   width: auto;
   height: auto;
-  max-width: 280px;
-  max-height: 280px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .card-detail-header {
@@ -215,7 +165,9 @@ input:focus {
   .recipe-detail-image-holder {
     display: none;
   }
+
+  .tags {
+    display: none;
+  }
   
 }
-
-

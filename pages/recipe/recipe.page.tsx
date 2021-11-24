@@ -1,24 +1,17 @@
-import Header from "./Header";
+import React from "react";
 import BeatLoader from "react-spinners/BeatLoader";
 import { useState } from "react";
-import {Link, useParams} from "react-router-dom";
-import _recipes from "../public/recipe.json";
-import {Recipe} from "./types";
+import {Recipe} from "../../renderer/types";
+import {Page as ErrorPage} from "../../renderer/_error.page"
+import "./recipe.css";
 
-const recipes: Recipe[] = _recipes;
+export { Page }
 
-function RecipeDetailView() {
-  const { id } = useParams();
+function Page({recipe}: {recipe: Recipe}) {
   const [loadingImage, setLoadingImage] = useState(true);
 
-  if (!id) {
-    return (<>Not found :(</>)
-  }
-
-  const recipe = recipes.find(recipe => recipe.id.toString() === id);
-
   if (!recipe) {
-    return (<>Not found :(</>)
+    return (<ErrorPage is404 />)
   }
 
   return (
@@ -27,16 +20,15 @@ function RecipeDetailView() {
          <h2>{recipe.name}</h2>
         </div>
         <div className="detail-actions">
-          <Link to="/">
+          <a href="/">
             <img src="/home.svg" className="home icon"></img>
-          </Link>
+          </a>
           <img src="/printer.svg" className="print icon"
             onClick={() => window.print()}>
           </img>
         </div>
         <div className="recipe-detail-image-holder">
-            <BeatLoader loading={loadingImage} margin={2} size={15} />
-            <img className="recipe-detail-image" src={recipe.image} onLoad={() => setLoadingImage(false)}></img>
+          <img className="recipe-detail-image" src={recipe.image} onLoad={() => {console.log("Setting to false"); setLoadingImage(false)}}></img>
         </div>
         <div className="recipe-content">
           <div className="ingredient-list">
@@ -65,5 +57,3 @@ function RecipeDetailView() {
       </div>
   )
 }
-
-export default RecipeDetailView
