@@ -28,7 +28,6 @@
 
 .recipe-image-holder {
   border-radius: 10px;
-  border: 1px solid black;
   width: 150px;
   height: 150px;
   overflow: hidden;
@@ -78,7 +77,6 @@ input:focus {
 
 .recipe-detail-image-holder {
   border-radius: 10px;
-  border: 1px solid black;
   width: 250px;
   height: 250px;
   overflow: hidden;
