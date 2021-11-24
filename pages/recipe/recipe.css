@@ -66,14 +66,14 @@ input:focus {
 }
 
 .recipe-detail-card {
-  border: 2px solid grey;
   border-radius: 5px;
   margin: 10px 10px 50px 10px;
-  width: 550px;
+  width: 650px;
   text-align: center;
   display: grid;
   grid-template-rows: 75px auto;
   row-gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .recipe-detail-image-holder {
